@@ -8,7 +8,7 @@ interface Props {
 export const SkillCard:React.FC<Props> = (props) => {
   
   return (
-    <div className="flex flex-col w-40 mb-2 h-40">
+    <div className="flex flex-col mb-2 w-40 h-40">
         {/* <div className="bg-white mt-3 mr-3 h-32 flex flex-col justify-between"> */}
         <div className="w-full h-full">
             <div className="bg-white w-full h-3/4 flex justify-center items-center">
