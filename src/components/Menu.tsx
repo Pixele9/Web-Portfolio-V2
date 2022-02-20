@@ -9,12 +9,12 @@ export default function Menu({ styles, setExpanded, expanded }) {
 				<br />
 
 				<li className="listItem bg-gradient-to-r from-purple-200 to-purple-200 bg-growing-underline inline-block mt-3">
-					<a>Skills</a>
+					<a>Experience</a>
 				</li>
 
 				<br />
 				<li className="listItem bg-gradient-to-r from-purple-200 to-purple-200 bg-growing-underline inline-block mt-3">
-					<a>Experience</a>
+					<a>Skills</a>
 				</li>
 			</ul>
 
