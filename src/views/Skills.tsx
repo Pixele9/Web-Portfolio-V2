@@ -41,7 +41,7 @@ export default function Skills() {
 			</h4>
 			<div className="h-1 w-10 bg-purple-400 mt-2 mb-4"></div>
 
-			<div className="flex flex-wrap justify-between">
+			<div className="flex flex-wrap gap-4">
 				{ skills.map(el => (
 					<SkillCard key={el.title + Math.random()} title={el.title} src={el.src} />
 				))}
