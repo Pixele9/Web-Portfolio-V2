@@ -53,6 +53,10 @@ body {
   background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
 
+.purple-gradient {
+  background-image: linear-gradient(to right, #a98cf7 0%, #7d74f9 19%, #8688fd 60%, #bd8bfe 100%);
+}
+
 @layer utilities {
   .bg-growing-underline {
     background-size: 100% 0em;
