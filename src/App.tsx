@@ -23,7 +23,7 @@ function App() {
 			setLoading(true);
 			const q = query(
 				collection(db, "experience"),
-				orderBy("date", "asc")
+				orderBy("date", "desc")
 			);
 			onSnapshot(q, (snapShot) => {
 				let experienceArr: Object[] = [];
